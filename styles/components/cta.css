@@ -1,0 +1,69 @@
+.cta {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.22),
+      rgba(0, 0, 0, 0.33)
+    ),
+    url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg)
+      center / cover no-repeat;
+  padding: 120px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cta__title {
+  font-size: 2.25rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.cta__description {
+  color: #ffffff;
+  max-width: 90ch;
+  margin: 15px 0 25px 0px;
+}
+
+.cta__btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #ed563b;
+  color: #ffffff;
+  padding: 12px 20px;
+}
+
+/* 2xl */
+/* @media (max-width: 1536px) {} */
+
+/* xl */
+@media (max-width: 1280px) {
+  .cta__description {
+    max-width: 75ch;
+  }
+}
+
+/* lg */
+/* @media (max-width: 1024px) {} */
+
+/* md */
+@media (max-width: 768px) {
+  .cta__description {
+    max-width: 65ch;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .cta__description {
+    max-width: 50ch;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .cta__description {
+    max-width: 45ch;
+  }
+}

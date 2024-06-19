@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/features.css" />
+    <link rel="stylesheet" href="./styles/components/cta.css" />
+    <link rel="stylesheet" href="./styles/components/classes.css" />
+    <link rel="stylesheet" href="./styles/components/schedule.css" />
+    <link rel="stylesheet" href="./styles/components/trainers.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/utilis.css" />
+    <title>Training Studio</title>
+    <script
+      src="https://kit.fontawesome.com/7410dfa6b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/main.js" type="module"></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <!-- desktop header -->
+      <nav class="header__main-nav container">
+        <!-- desktop logo -->
+        <a href="index.html" class="header__title">
+          Training<em class="em"> Studio</em>
+        </a>
+        <!-- desktop menu -->
+        <ul class="header__menu">
+          <li class="header__list">
+            <a href="#top" class="header__link">Home</a>
+          </li>
+          <li class="header__list">
+            <a href="#features" class="header__link">About</a>
+          </li>
+          <li class="header__list">
+            <a href="#classes" class="header__link">Classes</a>
+          </li>
+          <li class="header__list">
+            <a href="#schedule" class="header__link">Schedule</a>
+          </li>
+          <li class="header__list">
+            <a href="#contact" class="header__link">Contact</a>
+          </li>
+          <li class="header__list">
+            <a href="#" class="btn header__btn">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- mobile header -->
+      <div class="mobile-header container">
+        <div class="logo">
+          <!-- mobile Logo -->
+          <a href="index.html" class="mobile__title">
+            Training<em class="em"> Studio</em>
+          </a>
+        </div>
+        <!-- humburger -->
+        <div class="hamburger">
+          <i class="fa-solid fa-bars-staggered" data-visible="true"></i>
+          <i class="fa-solid fa-close" data-visible="false"></i>
+        </div>
+      </div>
+
+      <!-- mobile menu -->
+      <ul class="mobile-menu" data-visible="false">
+        <li class="mobile__list">
+          <a href="#top" class="mobile__link">Home</a>
+        </li>
+        <li class="mobile__list">
+          <a href="#features" class="mobile__link">About</a>
+        </li>
+        <li class="mobile__list">
+          <a href="#classes" class="mobile__link">Classes</a>
+        </li>
+        <li class="mobile__list">
+          <a href="#schedule" class="mobile__link">Schedule</a>
+        </li>
+        <li class="mobile__list">
+          <a href="#contact" class="mobile__link">Contact</a>
+        </li>
+        <li class="mobile__list">
+          <a href="#" class="btn mobile__btn">Sign Up</a>
+        </li>
+      </ul>
+      <!-- </nav> -->
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+      <video autoplay muted loop class="bg-video">
+        <source
+          src="https://videos.pexels.com/video-files/5319092/5319092-hd_1280_720_25fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="hero__overlay-text">
+        <div class="hero__caption">
+          <h6 class="hero__title">Work harder, Get stronger</h6>
+          <h2 class="hero__description">
+            Easy with our <em class="em">gym</em>
+          </h2>
+          <button class="btn hero__btn">Become a member</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- feature section -->
+    <section class="features container">
+      <div class="features__container">
+        <!--item 1-->
+        <div class="features__heading">
+          <h2 class="title">Choose <em class="em">program</em></h2>
+          <img
+            class="img"
+            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+          />
+          <p class="description">
+            Training Studio is free CSS template for gyms and fitness centers.
+            You are allowed to use this layout for your business website.
+          </p>
+        </div>
+
+        <!-- item 2 -->
+        <div class="features__box">
+          <ul class="features__items">
+            <li class="features__item">
+              <div class="features__left-icon">
+                <img
+                  class="features__box-img"
+                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
+                  alt=""
+                />
+              </div>
+              <div class="features__right-content">
+                <h4 class="features__box-title">Basic Fitness</h4>
+                <p class="features__box-description">
+                  Please do not re-distribute this template ZIP file on any
+                  template collection website. This is not allowed.
+                </p>
+                <a class="features__btn" href="#">Discover More</a>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <div class="features__left-icon">
+                <img
+                  class="features__box-img"
+                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
+                  alt=""
+                />
+              </div>
+              <div class="features__right-content">
+                <h4 class="features__box-title">New Gym Training</h4>
+                <p class="features__box-description">
+                  If you wish to support TemplateMo website via PayPal, please
+                  feel free to contact us. We appreciate it a lot.
+                </p>
+                <a class="features__btn" href="#">Discover More</a>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <div class="features__left-icon">
+                <img
+                  class="features__box-img"
+                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
+                  alt=""
+                />
+              </div>
+              <div class="features__right-content">
+                <h4 class="features__box-title">Basic Muscle Course</h4>
+                <p class="features__box-description">
+                  Credit goes to Pexels website for images and video background
+                  used in this HTML template.
+                </p>
+                <a class="features__btn" href="#">Discover More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- item 3 -->
+        <div class="features__box">
+          <ul class="features__items">
+            <li class="features__item">
+              <div class="features__left-icon">
+                <img
+                  class="features__box-img"
+                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
+                  alt=""
+                />
+              </div>
+              <div class="features__right-content">
+                <h4 class="features__box-title">Advanced Muscle Course</h4>
+                <p class="features__box-description">
+                  You may want to browse through
+                  <span>Digital Marketing</span> or <span>Corporate</span> HTML
+                  CSS templates on our website.
+                </p>
+                <a class="features__btn" href="#">Discover More</a>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <div class="features__left-icon">
+                <img
+                  class="features__box-img"
+                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
+                  alt=""
+                />
+              </div>
+              <div class="features__right-content">
+                <h4 class="features__box-title">Yoga Training</h4>
+                <p class="features__box-description">
+                  This template is built on Bootstrap v4.3.1 framework. It is
+                  easy to adapt the columns and sections.
+                </p>
+                <a class="features__btn" href="#">Discover More</a>
+              </div>
+            </li>
+
+            <li class="features__item">
+              <div class="features__left-icon">
+                <img
+                  class="features__box-img"
+                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
+                  alt=""
+                />
+              </div>
+              <div class="features__right-content">
+                <h4 class="features__box-title">Body Building Course</h4>
+                <p class="features__box-description">
+                  Suspendisse fringilla et nisi et mattis. Curabitur sed finibus
+                  nisi. Integer nibh sapien, vehicula et auctor.
+                </p>
+                <a class="features__btn" href="#">Discover More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta section -->
+    <section class="cta section">
+      <h4 class="cta__title">
+        Don't <em class="em">Think,</em> Begin <em class="em">Today!</em>
+      </h4>
+      <p class="cta__description">
+        Ut consectetur, metus sit amet aliquet placerat, enim est ultricies
+        ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a
+        nisi luctus imperdiet.
+      </p>
+      <a class="btn cta__btn" href="#">Become a member</a>
+    </section>
+
+    <!-- classes section -->
+    <section class="classes container section">
+      <div class="classes__heading">
+        <h2 class="title">Our <em class="em">Classes</em></h2>
+        <img
+          class="img"
+          src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+        />
+        <p class="description">
+          Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
+          viverra ipsum dolor, ultricies fermentum massa consequat eu.
+        </p>
+      </div>
+
+      <div class="classes__tabs">
+        <ul class="classes__tabs-list-container">
+          <li class="classes__tabs-list">
+            <a class="classes__tabs-link" href="#">
+              <img
+                class="classes__tabs-icon"
+                src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
+                alt=""
+              />
+              First Training Class
+            </a>
+          </li>
+
+          <li class="classes__tabs-list">
+            <a class="classes__tabs-link" href="#">
+              <img
+                class="classes__tabs-icon"
+                src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
+                alt=""
+              />
+              Second Training Class
+            </a>
+          </li>
+
+          <li class="classes__tabs-list">
+            <a class="classes__tabs-link" href="#">
+              <img
+                class="classes__tabs-icon"
+                src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
+                alt=""
+              />
+              Third Training Class
+            </a>
+          </li>
+
+          <li class="classes__tabs-list">
+            <a class="classes__tabs-link" href="#">
+              <img
+                class="classes__tabs-icon"
+                src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
+                alt=""
+              />
+              Fourth Training Class
+            </a>
+          </li>
+
+          <a class="btn classes__btn" href="#">View ALL Schedules</a>
+        </ul>
+
+        <div class="classes__tabs-content">
+          <img
+            class="classes__tabs-img"
+            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-01.jpg"
+            alt=""
+          />
+          <h4 class="classes__tabs-title">First Training Class</h4>
+          <p class="classes__tabs-description">
+            Phasellus convallis mauris sed elementum vulputate. Donec posuere
+            leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed
+            vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia
+            gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut,
+            accumsan diam
+          </p>
+          <a class="btn classes__tabs-btn" href="#">View Schedule</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- schedule section -->
+    <section class="schedule section">
+      <div class="schedule__heading">
+        <h2 class="schedule__title">Classes <em class="em">Schedule</em></h2>
+        <img
+          class="img"
+          src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+        />
+        <p class="schedule__description">
+          Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
+          viverra ipsum dolor, ultricies fermentum massa consequat eu.
+        </p>
+      </div>
+      <div class="schedule__filter">
+        <ul class="schedule__list-wrapper">
+          <li class="schedule__list">Monday</li>
+          <li class="schedule__list">Tuesday</li>
+          <li class="schedule__list">Wednesday</li>
+          <li class="schedule__list">Thursday</li>
+          <li class="schedule__list">Friday</li>
+        </ul>
+      </div>
+
+      <table class="table container">
+        <tbody class="table__body">
+          <tr class="table__row">
+            <td class="table__data">Fitness Class</td>
+            <td class="table__data"></td>
+            <td class="table__data"></td>
+            <td class="table__data">William G. Stewart</td>
+          </tr>
+
+          <tr class="table__row">
+            <td class="table__data">Muscle Training</td>
+            <td class="table__data">10:00AM - 11:30AM</td>
+            <td class="table__data"></td>
+            <td class="table__data">Pauk D. Newman</td>
+          </tr>
+
+          <tr class="table__row">
+            <td class="table__data">Body Building</td>
+            <td class="table__data"></td>
+            <td class="table__data"></td>
+            <td class="table__data">Boyd C. Harris</td>
+          </tr>
+
+          <tr class="table__row">
+            <td class="table__data">Yoga Trainig Class</td>
+            <td class="table__data"></td>
+            <td class="table__data">2:00PM - 3:30PM</td>
+            <td class="table__data">Hector T. Daigle</td>
+          </tr>
+
+          <tr class="table__row">
+            <td class="table__data">Advanced Training</td>
+            <td class="table__data"></td>
+            <td class="table__data"></td>
+            <td class="table__data">Bret D. Bowers</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- trainers section -->
+    <section class="trainers container section">
+      <div class="trainers__heading">
+        <h2 class="title">Expert <em class="em">Trainers</em></h2>
+        <img
+          class="img"
+          src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+        />
+        <p class="description">
+          Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
+          viverra ipsum dolor, ultricies fermentum massa consequat eu.
+        </p>
+      </div>
+
+      <div class="trainers__container">
+        <div class="trainer__box">
+          <img
+            class="trainer__box-img"
+            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/first-trainer.jpg"
+          />
+          <span class="trainer__box-badge">Strength Trainer</span>
+          <h4 class="trainer__box-name">Bret D. Bowers</h4>
+          <p class="trainer__box-description">
+            Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
+            gluten-free vegan church-key pour-over seitan flannel.
+          </p>
+          <div class="trainers__social-links">
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="trainer__box">
+          <img
+            class="trainer__box-img"
+            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/second-trainer.jpg"
+          />
+          <span class="trainer__box-badge">Muscle Trainer</span>
+          <h4 class="trainer__box-name">Hector T. Daigl</h4>
+          <p class="trainer__box-description">
+            Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
+            gluten-free vegan church-key pour-over seitan flannel.
+          </p>
+          <div class="trainers__social-links">
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="trainer__box">
+          <img
+            class="trainer__box-img"
+            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/third-trainer.jpg"
+          />
+          <span class="trainer__box-badge">Power Trainer</span>
+          <h4 class="trainer__box-name">Paul D. Newman</h4>
+          <p class="trainer__box-description">
+            Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents
+            gluten-free vegan church-key pour-over seitan flannel.
+          </p>
+          <div class="trainers__social-links">
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a class="trainer__social-link" href="#"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact section">
+      <div class="contact__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29380.894047651098!2d-43.368183!3d-23.0013!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd996dd719c39%3A0x657a003c3caadbd9!2sTerminal%20Alvorada!5e0!3m2!1sen!2sus!4v1718743313375!5m2!1sen!2sus"
+          width="700"
+          height="650"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="contact__form">
+        <div class="contact__form-container">
+          <form action="#" method="post">
+            <div class="form__container">
+              <div class="form__name">
+                <fieldset class="form__fieldset">
+                  <input
+                    class="form__input"
+                    name="name"
+                    type="text"
+                    id="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </fieldset>
+              </div>
+              <div class="form__email">
+                <fieldset class="form__fieldset">
+                  <input
+                    class="form__input"
+                    name="email"
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </fieldset>
+              </div>
+              <div class="form__subject">
+                <fieldset class="form__fieldset">
+                  <input
+                    class="form__input"
+                    name="subject"
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </fieldset>
+              </div>
+              <div class="form__message">
+                <fieldset class="form__fieldset">
+                  <textarea
+                    class="form__textarea"
+                    name="textarea"
+                    id="message"
+                    placeholder="Message"
+                  ></textarea>
+                </fieldset>
+              </div>
+              <div class="form__btn-container">
+                <button class="btn form__btn">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer container">
+      <p>
+        Copyright © 2020 Training Studio - Designed by
+        <em class="em">TemplateMo</em>
+      </p>
+    </section>
+  </body>
+</html>
