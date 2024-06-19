@@ -1,5 +1,5 @@
 .contact {
-  margin-top: 8rem;
+  margin-block: 8rem 2rem;
   display: flex;
   flex-wrap: wrap;
 }
