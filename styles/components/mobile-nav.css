@@ -37,10 +37,10 @@
   margin-inline: auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   position: fixed;
-  top: 5.1rem;
+  top: 5rem;
   right: 0;
   left: 0;
-  transform: translatey(0%);
+  transform: translatey(-1%);
   transition: transform 350ms ease-in-out;
 }
 
